@@ -1,0 +1,9 @@
+*.html
+!/docs/**/*
+/**/__pycache__/
+/**/.ipynb_checkpoints/
+/**/.DS_Store
+/**/tmps/
+/java/**/tmps/
+/java/**/out/
+/java/**/target/

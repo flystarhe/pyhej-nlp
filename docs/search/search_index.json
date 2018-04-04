@@ -1,0 +1,89 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Home\n\u00b6\n\n\nWelcome to \nPyHej NLP\n docs.\n\n\n\u7f16\u8bd1\n\u00b6\n\n\n1\nmkdocs build --clean\n\n\n\n\n\n\n\u63d0\u4ea4\n\u00b6\n\n\n1\n2\n3\ngit add .\ngit commit -m \"some words\"\ngit push origin master",
+            "title": "Home"
+        },
+        {
+            "location": "/#home",
+            "text": "Welcome to  PyHej NLP  docs.",
+            "title": "Home"
+        },
+        {
+            "location": "/#_1",
+            "text": "1 mkdocs build --clean",
+            "title": "\u7f16\u8bd1"
+        },
+        {
+            "location": "/#_2",
+            "text": "1\n2\n3 git add .\ngit commit -m \"some words\"\ngit push origin master",
+            "title": "\u63d0\u4ea4"
+        },
+        {
+            "location": "/notes/",
+            "text": "\u6587\u672c\u6458\u8981\n\u00b6\n\n\ngithub\n\u4e0a\u975e\u5e38\u68d2\u7684\u6587\u672c\u6458\u8981\u5904\u7406\u6307\u5357.\n\n\nSpeaker Diarization\n\u00b6\n\n\n\n\nhttps://github.com/aalto-speech/speaker-diarization\n\n\nhttps://github.com/pyannote/pyannote-audio\n\n\nhttps://github.com/AKBoles/Deep-Learning-Speech-Recognition\n\n\nhttps://github.com/pyannote/pyannote-metrics\n\n\nhttps://github.com/Jamiroquai88/VBDiarization\n ++\n\n\nhttps://github.com/aalto-speech/speaker-diarization\n ++",
+            "title": "Notes"
+        },
+        {
+            "location": "/notes/#_1",
+            "text": "github \u4e0a\u975e\u5e38\u68d2\u7684\u6587\u672c\u6458\u8981\u5904\u7406\u6307\u5357.",
+            "title": "\u6587\u672c\u6458\u8981"
+        },
+        {
+            "location": "/notes/#speaker-diarization",
+            "text": "https://github.com/aalto-speech/speaker-diarization  https://github.com/pyannote/pyannote-audio  https://github.com/AKBoles/Deep-Learning-Speech-Recognition  https://github.com/pyannote/pyannote-metrics  https://github.com/Jamiroquai88/VBDiarization  ++  https://github.com/aalto-speech/speaker-diarization  ++",
+            "title": "Speaker Diarization"
+        },
+        {
+            "location": "/pyAudioAnalysis/readme/",
+            "text": "pyAudioAnalysis\n\u00b6\n\n\nInstallation\n\u00b6\n\n\n1\n2\napt-get install ffmpeg\npip install numpy matplotlib scipy sklearn hmmlearn simplejson eyed3 pydub\n\n\n\n\n\n\nadd submodule:\n\n1\n2\ngit submodule add https://github.com/tyiannak/pyAudioAnalysis.git modules/audio_analysis\ngit submodule add https://github.com/ksingla025/pyAudioAnalysis3.git modules/audio_analysis3\n\n\n\n\n\nPerform unsupervised segmentation(Speaker Diarization)\n\u00b6\n\n\ndoc\n.\n\n1\n2\n3\n4\n5\n6\n7\n8\nimport\n \nsys\n\n\n\nthis_lib\n \n=\n \n'/data2/tmps/pyhej-nlp/modules'\n\n\nif\n \nthis_lib\n \nnot\n \nin\n \nsys\n.\npath\n:\n\n    \nsys\n.\npath\n.\ninsert\n(\n0\n,\n \nthis_lib\n)\n\n\n\nfrom\n \naudio_analysis3\n \nimport\n \naudioSegmentation\n\n\nhelp\n(\naudioSegmentation\n.\nspeakerDiarization\n)",
+            "title": "pyAudioAnalysis"
+        },
+        {
+            "location": "/pyAudioAnalysis/readme/#pyaudioanalysis",
+            "text": "",
+            "title": "pyAudioAnalysis"
+        },
+        {
+            "location": "/pyAudioAnalysis/readme/#installation",
+            "text": "1\n2 apt-get install ffmpeg\npip install numpy matplotlib scipy sklearn hmmlearn simplejson eyed3 pydub   add submodule: 1\n2 git submodule add https://github.com/tyiannak/pyAudioAnalysis.git modules/audio_analysis\ngit submodule add https://github.com/ksingla025/pyAudioAnalysis3.git modules/audio_analysis3",
+            "title": "Installation"
+        },
+        {
+            "location": "/pyAudioAnalysis/readme/#perform-unsupervised-segmentationspeaker-diarization",
+            "text": "doc . 1\n2\n3\n4\n5\n6\n7\n8 import   sys  this_lib   =   '/data2/tmps/pyhej-nlp/modules'  if   this_lib   not   in   sys . path : \n     sys . path . insert ( 0 ,   this_lib )  from   audio_analysis3   import   audioSegmentation  help ( audioSegmentation . speakerDiarization )",
+            "title": "Perform unsupervised segmentation(Speaker Diarization)"
+        },
+        {
+            "location": "/synonyms/readme/",
+            "text": "Synonyms\n\u00b6\n\n\nChinese Synonyms for Natural Language Processing and Understanding.\n\n\n\u6700\u597d\u7684\u4e2d\u6587\u8fd1\u4e49\u8bcd\u5de5\u5177\u5305.synonyms\u53ef\u4ee5\u7528\u4e8e\u81ea\u7136\u8bed\u8a00\u7406\u89e3\u7684\u5f88\u591a\u4efb\u52a1:\u6587\u672c\u5bf9\u9f50,\u63a8\u8350\u7b97\u6cd5,\u76f8\u4f3c\u5ea6\u8ba1\u7b97,\u8bed\u4e49\u504f\u79fb,\u5173\u952e\u5b57\u63d0\u53d6,\u6982\u5ff5\u63d0\u53d6,\u81ea\u52a8\u6458\u8981,\u641c\u7d22\u5f15\u64ce\u7b49.\n\n\n\u5b89\u88c5:\n\n1\n$ pip install -U synonyms\n\n\n\n\n\n\u793a\u4f8b:\n\n1\n2\nimport\n \nsynonyms\n\n\nsynonyms\n.\ndisplay\n(\n'\u80fd\u91cf'\n)\n\n\n\n\n\n\n\u652f\u6301\u4f7f\u7528\u73af\u5883\u53d8\u91cf\u914d\u7f6e\u5206\u8bcd\u8bcd\u8868\u548cword2vec\u8bcd\u5411\u91cf\u6587\u4ef6:\n\n\n\n\n\n\n\n\n\u73af\u5883\u53d8\u91cf\n\n\n\u63cf\u8ff0\n\n\n\n\n\n\n\n\n\n\nSYNONYMS_WORD2VEC_BIN_MODEL_ZH_CN\n\n\n\u4f7f\u7528word2vec\u8bad\u7ec3\u7684\u8bcd\u5411\u91cf\u6587\u4ef6,\u4e8c\u8fdb\u5236\u683c\u5f0f\n\n\n\n\n\n\nSYNONYMS_WORDSEG_DICT\n\n\n\u4e2d\u6587\u5206\u8bcd\u4e3b\u5b57\u5178\uff0c\u683c\u5f0f\u548c\u4f7f\u7528\u53c2\u8003jieba\n\n\n\n\n\n\n\n\n\u4f18\u96c5\u7684\u65b9\u5f0f,\u4ee3\u7801\u524d\u7aef\u6dfb\u52a0:\n\n1\n2\nimport\n \nos\n\n\nos\n.\nenviron\n[\n'SYNONYMS_WORDSEG_DICT'\n]\n \n=\n \n'home/hejian/data/dict.txt.big'\n\n\n\n\n\n\nseg\n\u00b6\n\n\n\u4e2d\u6587\u5206\u8bcd:\n\n1\n2\nimport\n \nsynonyms\n\n\nsynonyms\n.\nseg\n(\n'\u4e2d\u6587\u8fd1\u4e49\u8bcd\u5de5\u5177\u5305'\n)\n\n\n\n\n\n\n\u5206\u8bcd\u7ed3\u679c,\u7531\u4e24\u4e2alist\u7ec4\u6210\u7684\u5143\u7ec4,\u5206\u522b\u662f\u5355\u8bcd\u548c\u5bf9\u5e94\u7684\u8bcd\u6027:\n\n1\n(['\u4e2d\u6587', '\u8fd1\u4e49\u8bcd', '\u5de5\u5177\u5305'], ['nz', 'n', 'n'])\n\n\n\n\n\n\n\n\u8be5\u5206\u8bcd\u4e0d\u53bb\u505c\u7528\u8bcd\u548c\u6807\u70b9.\n\n\n\n\nnearby\n\u00b6\n\n\n\u8fd1\u4e49\u8bcd:\n\n1\n2\nimport\n \nsynonyms\n\n\nsynonyms\n.\nnearby\n(\n'\u4eba\u8138'\n)\n\n\n\n\n\n\ncompare\n\u00b6\n\n\n\u4e24\u4e2a\u53e5\u5b50\u7684\u76f8\u4f3c\u5ea6\u6bd4\u8f83:\n\n1\n2\n3\n4\nimport\n \nsynonyms\n\n\nsen1\n \n=\n \n'\u53d1\u751f\u5386\u53f2\u6027\u53d8\u9769'\n\n\nsen2\n \n=\n \n'\u53d1\u751f\u5386\u53f2\u6027\u53d8\u9769'\n\n\nr\n \n=\n \nsynonyms\n.\ncompare\n(\nsen1\n,\n \nsen2\n,\n \nseg\n=\nTrue\n)\n\n\n\n\n\n\n\u53c2\u6570\nseg\n\u8868\u793a\u662f\u5426\u5bf9\nsen1\n\u548c\nsen2\n\u8fdb\u884c\u5206\u8bcd,\u9ed8\u8ba4\u4e3a\nTrue\n.\u8fd4\u56de\u503c\n[0-1]\n,\u5e76\u4e14\u8d8a\u63a5\u8fd1\u4e8e1\u4ee3\u8868\u4e24\u4e2a\u53e5\u5b50\u8d8a\u76f8\u4f3c.\n\n1\n2\n3\n\u65d7\u5e1c\u5f15\u9886\u65b9\u5411 vs \u9053\u8def\u51b3\u5b9a\u547d\u8fd0: 0.429\n\u65d7\u5e1c\u5f15\u9886\u65b9\u5411 vs \u65d7\u5e1c\u6307\u5f15\u9053\u8def: 0.93\n\u53d1\u751f\u5386\u53f2\u6027\u53d8\u9769 vs \u53d1\u751f\u5386\u53f2\u6027\u53d8\u9769: 1.0\n\n\n\n\n\ndisplay\n\u00b6\n\n\n\u4ee5\u53cb\u597d\u7684\u65b9\u5f0f\u6253\u5370\u8fd1\u4e49\u8bcd,\u65b9\u4fbf\u8c03\u8bd5,\ndisplay\n\u7528\u4e86\nnearby\n\u65b9\u6cd5:\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n>>>\n \nsynonyms\n.\ndisplay\n(\n'\u98de\u673a'\n)\n\n\n'\u98de\u673a'\n\u8fd1\u4e49\u8bcd\uff1a\n\n  \n1.\n \n\u67b6\u98de\u673a\n:\n0.837399\n\n  \n2.\n \n\u5ba2\u673a\n:\n0.764609\n\n  \n3.\n \n\u76f4\u5347\u673a\n:\n0.762116\n\n  \n4.\n \n\u6c11\u822a\u673a\n:\n0.750519\n\n  \n5.\n \n\u822a\u673a\n:\n0.750116\n\n  \n6.\n \n\u8d77\u98de\n:\n0.735736\n\n  \n7.\n \n\u6218\u673a\n:\n0.734975\n\n  \n8.\n \n\u98de\u884c\u4e2d\n:\n0.732649\n\n  \n9.\n \n\u822a\u7a7a\u5668\n:\n0.723945\n\n  \n10.\n \n\u8fd0\u8f93\u673a\n:\n0.720578",
+            "title": "Synonyms"
+        },
+        {
+            "location": "/synonyms/readme/#synonyms",
+            "text": "Chinese Synonyms for Natural Language Processing and Understanding.  \u6700\u597d\u7684\u4e2d\u6587\u8fd1\u4e49\u8bcd\u5de5\u5177\u5305.synonyms\u53ef\u4ee5\u7528\u4e8e\u81ea\u7136\u8bed\u8a00\u7406\u89e3\u7684\u5f88\u591a\u4efb\u52a1:\u6587\u672c\u5bf9\u9f50,\u63a8\u8350\u7b97\u6cd5,\u76f8\u4f3c\u5ea6\u8ba1\u7b97,\u8bed\u4e49\u504f\u79fb,\u5173\u952e\u5b57\u63d0\u53d6,\u6982\u5ff5\u63d0\u53d6,\u81ea\u52a8\u6458\u8981,\u641c\u7d22\u5f15\u64ce\u7b49.  \u5b89\u88c5: 1 $ pip install -U synonyms   \u793a\u4f8b: 1\n2 import   synonyms  synonyms . display ( '\u80fd\u91cf' )    \u652f\u6301\u4f7f\u7528\u73af\u5883\u53d8\u91cf\u914d\u7f6e\u5206\u8bcd\u8bcd\u8868\u548cword2vec\u8bcd\u5411\u91cf\u6587\u4ef6:     \u73af\u5883\u53d8\u91cf  \u63cf\u8ff0      SYNONYMS_WORD2VEC_BIN_MODEL_ZH_CN  \u4f7f\u7528word2vec\u8bad\u7ec3\u7684\u8bcd\u5411\u91cf\u6587\u4ef6,\u4e8c\u8fdb\u5236\u683c\u5f0f    SYNONYMS_WORDSEG_DICT  \u4e2d\u6587\u5206\u8bcd\u4e3b\u5b57\u5178\uff0c\u683c\u5f0f\u548c\u4f7f\u7528\u53c2\u8003jieba     \u4f18\u96c5\u7684\u65b9\u5f0f,\u4ee3\u7801\u524d\u7aef\u6dfb\u52a0: 1\n2 import   os  os . environ [ 'SYNONYMS_WORDSEG_DICT' ]   =   'home/hejian/data/dict.txt.big'",
+            "title": "Synonyms"
+        },
+        {
+            "location": "/synonyms/readme/#seg",
+            "text": "\u4e2d\u6587\u5206\u8bcd: 1\n2 import   synonyms  synonyms . seg ( '\u4e2d\u6587\u8fd1\u4e49\u8bcd\u5de5\u5177\u5305' )    \u5206\u8bcd\u7ed3\u679c,\u7531\u4e24\u4e2alist\u7ec4\u6210\u7684\u5143\u7ec4,\u5206\u522b\u662f\u5355\u8bcd\u548c\u5bf9\u5e94\u7684\u8bcd\u6027: 1 (['\u4e2d\u6587', '\u8fd1\u4e49\u8bcd', '\u5de5\u5177\u5305'], ['nz', 'n', 'n'])    \u8be5\u5206\u8bcd\u4e0d\u53bb\u505c\u7528\u8bcd\u548c\u6807\u70b9.",
+            "title": "seg"
+        },
+        {
+            "location": "/synonyms/readme/#nearby",
+            "text": "\u8fd1\u4e49\u8bcd: 1\n2 import   synonyms  synonyms . nearby ( '\u4eba\u8138' )",
+            "title": "nearby"
+        },
+        {
+            "location": "/synonyms/readme/#compare",
+            "text": "\u4e24\u4e2a\u53e5\u5b50\u7684\u76f8\u4f3c\u5ea6\u6bd4\u8f83: 1\n2\n3\n4 import   synonyms  sen1   =   '\u53d1\u751f\u5386\u53f2\u6027\u53d8\u9769'  sen2   =   '\u53d1\u751f\u5386\u53f2\u6027\u53d8\u9769'  r   =   synonyms . compare ( sen1 ,   sen2 ,   seg = True )    \u53c2\u6570 seg \u8868\u793a\u662f\u5426\u5bf9 sen1 \u548c sen2 \u8fdb\u884c\u5206\u8bcd,\u9ed8\u8ba4\u4e3a True .\u8fd4\u56de\u503c [0-1] ,\u5e76\u4e14\u8d8a\u63a5\u8fd1\u4e8e1\u4ee3\u8868\u4e24\u4e2a\u53e5\u5b50\u8d8a\u76f8\u4f3c. 1\n2\n3 \u65d7\u5e1c\u5f15\u9886\u65b9\u5411 vs \u9053\u8def\u51b3\u5b9a\u547d\u8fd0: 0.429\n\u65d7\u5e1c\u5f15\u9886\u65b9\u5411 vs \u65d7\u5e1c\u6307\u5f15\u9053\u8def: 0.93\n\u53d1\u751f\u5386\u53f2\u6027\u53d8\u9769 vs \u53d1\u751f\u5386\u53f2\u6027\u53d8\u9769: 1.0",
+            "title": "compare"
+        },
+        {
+            "location": "/synonyms/readme/#display",
+            "text": "\u4ee5\u53cb\u597d\u7684\u65b9\u5f0f\u6253\u5370\u8fd1\u4e49\u8bcd,\u65b9\u4fbf\u8c03\u8bd5, display \u7528\u4e86 nearby \u65b9\u6cd5:  1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12 >>>   synonyms . display ( '\u98de\u673a' )  '\u98de\u673a' \u8fd1\u4e49\u8bcd\uff1a \n   1.   \u67b6\u98de\u673a : 0.837399 \n   2.   \u5ba2\u673a : 0.764609 \n   3.   \u76f4\u5347\u673a : 0.762116 \n   4.   \u6c11\u822a\u673a : 0.750519 \n   5.   \u822a\u673a : 0.750116 \n   6.   \u8d77\u98de : 0.735736 \n   7.   \u6218\u673a : 0.734975 \n   8.   \u98de\u884c\u4e2d : 0.732649 \n   9.   \u822a\u7a7a\u5668 : 0.723945 \n   10.   \u8fd0\u8f93\u673a : 0.720578",
+            "title": "display"
+        }
+    ]
+}

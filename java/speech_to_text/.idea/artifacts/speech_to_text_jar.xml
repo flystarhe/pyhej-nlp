@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="speech_to_text:jar">
+    <output-path>$PROJECT_DIR$/../jars</output-path>
+    <root id="archive" name="speech_to_text.jar">
+      <element id="module-output" name="speech_to_text" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/main/resources/lfasr-sdk-client-2.0.0.1005-jar-with-dependencies.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
